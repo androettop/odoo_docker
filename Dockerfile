@@ -1,4 +1,4 @@
-FROM odoo:14
+FROM odoo:15
 EXPOSE 8888
 USER root
 RUN pip3 install ptvsd
