@@ -1,4 +1,5 @@
-FROM odoo:15
+ARG ODOO_VERSION=16.0
+FROM odoo:${ODOO_VERSION}
 EXPOSE 8888
 USER root
 RUN pip3 install ptvsd
